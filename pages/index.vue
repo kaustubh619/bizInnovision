@@ -298,6 +298,13 @@
 
 @media screen and (max-width: 768px) {
   .section-1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-1 {
     padding-top: 150px;
   }
 }
