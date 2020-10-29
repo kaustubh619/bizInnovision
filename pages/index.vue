@@ -271,6 +271,12 @@
           </div>
         </div>
       </div>
+      <div class="know-more">
+        <div class="title-biz">
+          <h3>know more</h3>
+          <button class="btn-more">View More</button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -419,6 +425,10 @@
   }
 }
 
+.services-content h5 {
+  color: #33c091;
+}
+
 @media screen and (max-width: 37.5em) {
   .title-biz h4 {
     font-size: 14px;
@@ -435,6 +445,37 @@
   }
   .services-content h6 {
     font-size: 14px;
+  }
+}
+
+.know-more {
+  margin-top: 100px;
+  padding-bottom: 40px;
+}
+
+.btn-more {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  background: white;
+  border-radius: 25px;
+  padding: 14px 30px;
+  outline: none;
+  margin-top: 20px;
+  transition: all 0.3s ease-in;
+}
+
+.btn-more:hover {
+  background: #4285f4;
+  color: white;
+  box-shadow: 0 5px 30px -5px rgba(66, 133, 244, 0.7) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-more {
+    font-size: 14px;
+    padding: 8px 22px;
   }
 }
 </style>
