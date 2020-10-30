@@ -36,6 +36,7 @@
 
         $(".nav-links li").click(function () {
           nav.classList.toggle("nav-active");
+          burger.classList.toggle("toggle");
         });
       };
       navSlide();
