@@ -161,6 +161,12 @@
   font-size: 14px;
 }
 
+@media screen and (max-width: 37.5em) {
+  .txTeam {
+    font-size: 13px;
+  }
+}
+
 #circle-shape-example {
   background: white;
   border-radius: 5px;
