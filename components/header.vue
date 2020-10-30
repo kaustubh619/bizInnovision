@@ -112,7 +112,8 @@ nav {
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease;
-    background: #5d4954;
+    background: #1a3df0;
+    opacity: 0.95;
   }
 
   .nav-links a {
