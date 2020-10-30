@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 37.5em) {
   .clients {
-    min-height: 70vh;
+    min-height: 73vh;
   }
 }
 
