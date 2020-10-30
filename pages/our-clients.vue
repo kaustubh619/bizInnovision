@@ -36,6 +36,8 @@
         centerMode: true,
         centerPadding: "0px",
         slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsive: [
           {
             breakpoint: 768,
