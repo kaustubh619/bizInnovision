@@ -17,9 +17,33 @@ export default {
         href:
           "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       },
-      { rel: "stylesheet", href: "/fonts/bills_mafia.css" }
+      { rel: "stylesheet", href: "/fonts/bills_mafia.css" },
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      },
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      }
     ],
-    script: []
+    script: [
+      {
+        src: "https://code.jquery.com/jquery-1.12.4.min.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://code.jquery.com/jquery-migrate-1.2.1.min.js",
+        type: "text/javascript"
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js",
+        type: "text/javascript"
+      }
+    ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

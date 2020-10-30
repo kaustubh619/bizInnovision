@@ -46,4 +46,10 @@ a {
 .nav-active {
   transform: translateX(0%);
 }
+
+.slick-next:before,
+.slick-prev:before {
+  color: #5d4954;
+  font-size: 26px;
+}
 </style>

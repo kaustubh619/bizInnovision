@@ -2,14 +2,14 @@
   <div style="position: fixed; top: 0; left: 0; width: 100%; z-index: 10">
     <nav>
       <div>
-        <nuxt-link to=""
+        <nuxt-link to="/"
           ><img src="~static/images/biz1.jpg" class="nav-logo"
         /></nuxt-link>
       </div>
       <ul class="nav-links">
-        <li><nuxt-link to="">home</nuxt-link></li>
-        <li><nuxt-link to="">about us</nuxt-link></li>
-        <li><nuxt-link to="">our clients</nuxt-link></li>
+        <li><nuxt-link to="/">home</nuxt-link></li>
+        <li><nuxt-link to="/about-us">about us</nuxt-link></li>
+        <li><nuxt-link to="/our-clients">our clients</nuxt-link></li>
         <li><nuxt-link to="">contact</nuxt-link></li>
       </ul>
       <div class="burger">
@@ -32,6 +32,10 @@
         burger.addEventListener("click", () => {
           nav.classList.toggle("nav-active");
           burger.classList.toggle("toggle");
+        });
+
+        $(".nav-links li").click(function () {
+          nav.classList.toggle("nav-active");
         });
       };
       navSlide();
@@ -112,7 +116,7 @@ nav {
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease;
-    background: #1a3df0;
+    background: #5d4954;
     opacity: 0.95;
   }
 

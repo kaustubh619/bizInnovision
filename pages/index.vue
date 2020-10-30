@@ -100,7 +100,7 @@
             <div class="col-12 col-sm-6 col-lg-3 offset-lg-3">
               <div class="card-biz">
                 <img src="~static/images/WhatWeDo_ContentMarketing.png" />
-                <h5>constent marketing</h5>
+                <h5>content marketing</h5>
                 <p>
                   The best marketing shouldn’t feel like marketing. It should be
                   like Lennon glasses, the perfect rounds.
@@ -289,8 +289,8 @@
 
 <style scoped>
 .section-1 {
-  background-image: url("https://unblast.com/wp-content/uploads/2020/04/Concrete-Texture-2.jpg");
-  background-size: contain;
+  background-image: url("~static/images/pexels-karolina-grabowska-4040654.jpg");
+  background-size: cover;
   background-position: center;
   padding-top: 200px;
   background-attachment: fixed;
@@ -350,7 +350,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 6px 6px 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 3px 0 rgba(51, 192, 145, 0.2);
 }
 
 @media screen and (max-width: 1024px) {
