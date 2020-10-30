@@ -274,7 +274,9 @@
       <div class="know-more">
         <div class="title-biz">
           <h3>know more</h3>
-          <button class="btn-more">View More</button>
+          <nuxt-link to="/about-us">
+            <button class="btn-more">View More</button>
+          </nuxt-link>
         </div>
       </div>
     </div>
